@@ -15,5 +15,5 @@ RUN pip install --no-cache-dir openclaw
 # 將當前目錄的 SOUL.md, AGENTS.md 等設定檔複製進容器
 COPY . /app
 
-使用 python -m openclaw 啟動服務
+# 使用 python -m openclaw 啟動服務
 CMD ["python", "-m", "openclaw"]
